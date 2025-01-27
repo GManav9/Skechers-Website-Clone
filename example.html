@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Alert</title>
+        <style>
+        /* Modal Background */
+        .alert-modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Modal Content */
+        .alert-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Button Styling */
+        button {
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+        </style>
+  </head>
+  <body>
+    <button onclick="showAlert()">Show Custom Alert</button>
+
+    <!-- Custom Alert Modal -->
+    <div id="customAlert" class="alert-modal">
+      <div class="alert-content">
+        <h2>Alert Message</h2>
+        <p>This is a custom alert message.</p>
+        <button onclick="closeAlert()">OK</button>
+      </div>
+    </div>
+
+    <script>
+      // Function to display the custom alert
+      function showAlert() {
+        document.getElementById("customAlert").style.display = "flex";
+      }
+
+      // Function to close the custom alert
+      function closeAlert() {
+        document.getElementById("customAlert").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
