@@ -1,0 +1,477 @@
+{
+  "home": [
+    {
+      "id": "1",
+      "image": "./images/p1.png",
+      "categorie": "Women",
+      "title": "UNO COURT -COURTED STYLE",
+      "price": 7499
+    },
+    {
+      "id": "2",
+      "image": "./images/p2.png",
+      "categorie": "Women",
+      "title": "UNO COURT -COURTED STYLE",
+      "price": 6999
+    },
+    {
+      "id": "3",
+      "image": "https://www.skechers.in/on/demandware.static/-/Sites-skechers_india/default/dw8969c6a2/images/large/183140-1.jpg",
+      "categorie": "Men",
+      "title": "UNO COURT - LOW-POST",
+      "price": 6399
+    },
+    {
+      "id": "4",
+      "image": "https://www.skechers.in/on/demandware.static/-/Sites-skechers_india/default/dw2357e737/images/large/197976763104-1.jpg",
+      "categorie": "Men",
+      "title": "TRES-AIR UNO - VISION-AIRY SLIP-INS",
+      "price": 8499
+    }
+  ],
+  "Menproducts": [
+    {
+      "id": "1",
+      "image": "./images/Men-1.png",
+      "categorie": "Men",
+      "title": "GO RUN ELEVATE 2.0 - UPRAISE",
+      "price": 5599
+    },
+    {
+      "id": "2",
+      "image": "./images/Men-2.png",
+      "categorie": "Men",
+      "title": "GO RUN ELEVATE 2.0 - UPRAISE",
+      "price": 6999
+    },
+    {
+      "id": "3",
+      "image": "./images/Men-3.png",
+      "categorie": "Men",
+      "title": "PARSON - RALVEN",
+      "price": 6999
+    },
+    {
+      "id": "4",
+      "image": "./images/Men-4.png",
+      "categorie": "Men",
+      "title": "ARCH FIT 2.0 - FARUM",
+      "price": 5249
+    },
+    {
+      "id": "5",
+      "image": "./images/Men-5.png",
+      "categorie": "Men",
+      "title": "SKECHERS MONSTER EVO - DEVOLV",
+      "price": 4799
+    },
+    {
+      "id": "6",
+      "image": "./images/Men-6.png",
+      "categorie": "Men",
+      "title": "GO WALK ARCH FIT 2.0 - IDYLLI",
+      "price": 6799
+    },
+    {
+      "id": "7",
+      "image": "./images/Men-7.png",
+      "categorie": "Men",
+      "title": "ARCH FIT OGDEN",
+      "price": 5599
+    },
+    {
+      "id": "8",
+      "image": "./images/Men-8.png",
+      "categorie": "Men",
+      "title": "GO RUN CONSISTENT 2.0 - MILE MARKER",
+      "price": 6499
+    },
+    {
+      "id": "9",
+      "image": "./images/Men-9.png",
+      "categorie": "Men",
+      "title": "STAMINA AT - UPPER STITCH",
+      "price": 5999
+    },
+    {
+      "id": "10",
+      "image": "./images/Men-10.png",
+      "categorie": "Men",
+      "title": "BOBS B FLEX - RESILIENT EDGE",
+      "price": 6999
+    },
+    {
+      "id": "11",
+      "image": "./images/Men-11.png",
+      "categorie": "Men",
+      "title": "Skechers Viper Court Pro - Pickleball",
+      "price": 9999
+    },
+    {
+      "id": "12",
+      "image": "./images/Men-12.png",
+      "categorie": "Men",
+      "title": "D-LUX JOURNEY",
+      "price": 6399
+    },
+    {
+      "id": "13",
+      "image": "./images/Men-13.png",
+      "categorie": "Men",
+      "title": "ARCH FIT 2.0 - FARUM",
+      "price": 5249
+    },
+    {
+      "id": "14",
+      "image": "./images/Men-14.png",
+      "categorie": "Men",
+      "title": "BOUNDER 2.0 - EMERGED",
+      "price": 7999
+    },
+    {
+      "id": "15",
+      "image": "./images/Men-15.png",
+      "categorie": "Men",
+      "title": "COURTWALD INDIA",
+      "price": 1999
+    },
+    {
+      "id": "16",
+      "image": "./images/Men-16.png",
+      "categorie": "Men",
+      "title": "SKECHERS SLIP-INS VIRTUE - PRIEBASE",
+      "price": 6999
+    },
+    {
+      "id": "17",
+      "image": "./images/Men-17.png",
+      "categorie": "Men",
+      "title": "BOBS B FLEX - RESILIENT EDGE",
+      "price": 5599
+    },
+    {
+      "id": "18",
+      "image": "./images/Men-18.png",
+      "categorie": "Men",
+      "title": "EDGERIDE - RAYGO",
+      "price": 6399
+    },
+    {
+      "id": "19",
+      "image": "./images/Men-19.jpg",
+      "categorie": "Men",
+      "title": "GO RUN ELEVATE 2.0 - FLUID MOTION",
+      "price": 5599
+    },
+    {
+      "id": "20",
+      "image": "./images/Men-20.png",
+      "categorie": "Men",
+      "title": "TRES - AIR UNO- VISION-AIRY SLIP-INS",
+      "price": 8499
+    },
+    {
+      "id": "21",
+      "image": "./images/Men-21.png",
+      "categorie": "Men",
+      "title": "SLADE - ROOYCE",
+      "price": 5999
+    },
+    {
+      "id": "22",
+      "image": "./images/Men-22.png",
+      "categorie": "Men",
+      "title": "EDGERIDE - EXXO",
+      "price": 3899
+    },
+    {
+      "id": "23",
+      "image": "./images/Men-23.png",
+      "categorie": "Men",
+      "title": "COURTWALD INDIA",
+      "price": 1999
+    },
+    {
+      "id": "24",
+      "image": "./images/Men-24.png",
+      "categorie": "Men",
+      "title": "SKX RESAGRIP - Basketball",
+      "price": 17999
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "image": "./images/p1.png",
+      "categorie": "Women",
+      "title": "UNO COURT -COURTED STYLE",
+      "price": 7499
+    },
+    {
+      "id": "2",
+      "image": "./images/p2.png",
+      "categorie": "Women",
+      "title": "UNO COURT -COURTED STYLE",
+      "price": 6999
+    },
+    {
+      "id": "3",
+      "image": "./images/p3.png",
+      "categorie": "Women",
+      "title": "HYPER SLIDE",
+      "price": 5999
+    },
+    {
+      "id": "4",
+      "image": "./images/p4.png",
+      "categorie": "Women",
+      "title": "GO RUN ELEVATE 2.0 - BANYAN",
+      "price": 8499
+    },
+    {
+      "id": "5",
+      "image": "./images/p5.png",
+      "categorie": "Women",
+      "title": "GO RUN ELEVATE 2.0 - BANYAN",
+      "price": 6999
+    },
+    {
+      "id": "6",
+      "image": "./images/p6.png",
+      "categorie": "Women",
+      "title": "SKECHERS SLIP-INS: GO WALK 7 - SPRINGTIME",
+      "price": 7999
+    },
+    {
+      "id": "7",
+      "image": "./images/p7.png",
+      "categorie": "Women",
+      "title": "ULTRA FLEX-3.0-CLASSY CHARM",
+      "price": 5999
+    },
+    {
+      "id": "8",
+      "image": "./images/p8.png",
+      "categorie": "Women",
+      "title": "VIRTUE - DIVINITY",
+      "price": 6999
+    },
+    {
+      "id": "9",
+      "image": "./images/p9.png",
+      "categorie": "Women",
+      "title": "SKECHERS SLIP-INS VIRTUE - SLEEK",
+      "price": 6999
+    },
+    {
+      "id": "10",
+      "image": "./images/p10.png",
+      "categorie": "Women",
+      "title": "D'LUX WALKER-WRAP PARTY",
+      "price": 6999
+    },
+    {
+      "id": "11",
+      "image": "./images/p11.png",
+      "categorie": "Women",
+      "title": "GO RUN SUPERSONIC MAX",
+      "price": 7999
+    },
+    {
+      "id": "12",
+      "image": "./images/p12.png",
+      "categorie": "Women",
+      "title": "HYPER SLIDE - PAWSOME",
+      "price": 6999
+    },
+    {
+      "id": "13",
+      "image": "./images/p13.png",
+      "categorie": "Women",
+      "title": "ARCH FIT 2",
+      "price": 6999
+    },
+    {
+      "id": "14",
+      "image": "./images/p14.png",
+      "categorie": "Women",
+      "title": "GO WALK ARCH FIT 2.0 - VIVID",
+      "price": 7999
+    },
+    {
+      "id": "15",
+      "image": "./images/p15.png",
+      "categorie": "Women",
+      "title": "HAZEL - STEP N G=FLOW",
+      "price": 7499
+    },
+    {
+      "id": "16",
+      "image": "./images/p16.png",
+      "categorie": "Women",
+      "title": "GO RUN ELEVATE 2.0 - CADENA",
+      "price": 6999
+    },
+    {
+      "id": "17",
+      "image": "./images/p17.png",
+      "categorie": "Women",
+      "title": "ARCH FIT - SWEET MONET",
+      "price": 4999
+    },
+    {
+      "id": "18",
+      "image": "./images/p18.png",
+      "categorie": "Women",
+      "title": "UPPER CUT NEO JOGGER-RS LICK",
+      "price": 8499
+    },
+    {
+      "id": "19",
+      "image": "./images/p19.png",
+      "categorie": "Women",
+      "title": "GO WALK ARCH FIT 2.0 - BEL",
+      "price": 9499
+    },
+    {
+      "id": "20",
+      "image": "./images/p20.png",
+      "categorie": "Women",
+      "title": "GUSTO - PATH WINDER",
+      "price": 6499
+    },
+    {
+      "id": "21",
+      "image": "./images/p21.png",
+      "categorie": "Women",
+      "title": "GUSTO - PATH WINDER",
+      "price": 6499
+    },
+    {
+      "id": "22",
+      "image": "./images/p22.png",
+      "categorie": "Women",
+      "title": "UPPER CUT NEO JOGGER - FLEET",
+      "price": 8499
+    },
+    {
+      "id": "23",
+      "image": "./images/p23.png",
+      "categorie": "Women",
+      "title": "SKECHERS VIPER COURT RELOAD",
+      "price": 8999
+    },
+    {
+      "id": "24",
+      "image": "./images/p24.png",
+      "categorie": "Women",
+      "title": "SKECHERS VIPER COURT RELOAD",
+      "price": 8999
+    }
+  ],
+  "users": [
+    {
+      "id": "d30a",
+      "username": "manav",
+      "email": "g@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "0e37",
+      "username": "maanv",
+      "email": "manav@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "b2a6",
+      "username": "manav",
+      "email": "m@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "32fe",
+      "username": "manav",
+      "email": "m@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "aa71",
+      "username": "manav",
+      "email": "m@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "cb0f",
+      "username": "manav",
+      "email": "g@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "87ac",
+      "username": "manav",
+      "email": "g@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "ab32",
+      "username": "manav",
+      "email": "g@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "51d5",
+      "username": "manav",
+      "email": "g@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "f688",
+      "username": "manav",
+      "email": "g@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "0b47",
+      "username": "manav",
+      "email": "f@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "17da",
+      "username": "manav",
+      "email": "g@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "81a9",
+      "username": "manav",
+      "email": "g@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "ad7a",
+      "username": "manav",
+      "email": "ga@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "490a",
+      "username": "manave",
+      "email": "gaa@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "b5c2",
+      "username": "manaves",
+      "email": "gaaa@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "f88f",
+      "username": "manavs",
+      "email": "raj@gmail.com",
+      "password": "123456789M@"
+    }
+  ],
+  "carts": []
+}
