@@ -308,7 +308,13 @@
           if (res.length === 0) {
             getData(id, quantity);
           } else {
-            alert("Item already added to cart!");
+            Swal.fire({
+              icon: "warning",
+              title: "Item already in cart!",
+              text: "This item is already in your cart.",
+              confirmButtonText: "OK",
+            });
+            // alert("Item already added to cart!");
           }
         })
         .catch((err) => {
