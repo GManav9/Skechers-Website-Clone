@@ -329,7 +329,7 @@
     // Function to delete an item from the cart
     function deleteItem(id) {
       // Send DELETE request to remove the item from the backend
-      fetch(`https://mock-server-app-snv6.onrender.com/carts${id}`, {
+      fetch(`https://mock-server-app-snv6.onrender.com/carts/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
