@@ -244,7 +244,7 @@ document.getElementById("form").addEventListener("submit", (e) => {
           password,
         };
 
-        fetch(`http://localhost:3000/users`, {
+        fetch(`https://mock-server-app-snv6.onrender.com/users`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

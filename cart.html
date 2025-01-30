@@ -313,7 +313,7 @@
   </body>
   <script>
     // Fetch and update the cart on page load
-    fetch(`http://localhost:3000/carts/`)
+    fetch(`https://mock-server-app-snv6.onrender.com/carts`)
       .then((res) => res.json())
       .then((res) => {
         document.querySelector("table").innerHTML = getData(res);
@@ -329,13 +329,13 @@
     // Function to delete an item from the cart
     function deleteItem(id) {
       // Send DELETE request to remove the item from the backend
-      fetch(`http://localhost:3000/carts/${id}`, {
+      fetch(`https://mock-server-app-snv6.onrender.com/carts${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
         .then(() => {
           // After deleting, fetch the updated cart and recalculate the prices
-          fetch(`http://localhost:3000/carts/`)
+          fetch(`https://mock-server-app-snv6.onrender.com/carts`)
             .then((res) => res.json())
             .then((res) => {
               document.querySelector("table").innerHTML = getData(res);

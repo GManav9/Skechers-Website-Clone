@@ -32,7 +32,7 @@ document.getElementById("form").addEventListener("submit", (e) => {
   }
 
   // Fetch user data from local API
-  fetch(`http://localhost:3000/users?email=${email}`)
+  fetch(`https://mock-server-app-snv6.onrender.com/users?email=${email}`)
     .then((res) => {
       if (!res.ok) {
         throw new Error("Network response was not ok");
