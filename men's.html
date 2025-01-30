@@ -306,7 +306,7 @@
 
   const fetchProducts = async (page = 1) => {
     try {
-      const res = await fetch("https://mock-server-app-snv6.onrender.com/Menproducts");
+      const res = await fetch("https://mock-server-app-ezrb.onrender.com/Menproducts");
       allProducts = await res.json(); // Store all products for live search
       renderProducts(allProducts.slice(0, itemsPerPage)); // Render the first page of all products
       renderPagination(allProducts.length, page); // Render pagination

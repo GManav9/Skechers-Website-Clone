@@ -267,7 +267,7 @@
     let url = new URLSearchParams(window.location.search);
     let id = url.get("id");
 
-    fetch(`https://mock-server-app-snv6.onrender.com/Menproducts/${id}`)
+    fetch(`https://mock-server-app-ezrb.onrender.com/Menproducts/${id}`)
       .then((res) => res.json())
       .then((res) => {
         document.querySelector(".sp").innerHTML = `
@@ -302,7 +302,7 @@
         return;
       }
 
-      fetch(`https://mock-server-app-snv6.onrender.com/carts?id=${id}`)
+      fetch(`https://mock-server-app-ezrb.onrender.com/carts?id=${id}`)
         .then((res) => res.json())
         .then((res) => {
           if (res.length === 0) {
@@ -322,7 +322,7 @@
         });
     }
     function getData(id, quantity) {
-      fetch(`https://mock-server-app-snv6.onrender.com/Menproducts/${id}`)
+      fetch(`https://mock-server-app-ezrb.onrender.com/Menproducts/${id}`)
         .then((res) => res.json())
         .then((res) => {
           res.quantity = quantity; // Add quantity to the product object
@@ -332,7 +332,7 @@
           console.log(err);
         });
       function addCart(res) {
-        fetch(`https://mock-server-app-snv6.onrender.com/carts`, {
+        fetch(`https://mock-server-app-ezrb.onrender.com/carts`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

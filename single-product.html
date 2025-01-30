@@ -297,7 +297,7 @@
         return;
       }
 
-      fetch(`https://mock-server-app-snv6.onrender.com/carts?id=${id}`)
+      fetch(`https://mock-server-app-ezrb.onrender.com/carts?id=${id}`)
         .then((res) => res.json())
         .then((res) => {
           if (res.length === 0) {
@@ -324,7 +324,7 @@
     }
 
     function addCart(res) {
-      fetch(`https://mock-server-app-snv6.onrender.com/carts/`, {
+      fetch(`https://mock-server-app-ezrb.onrender.com/carts/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
