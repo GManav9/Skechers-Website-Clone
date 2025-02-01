@@ -261,7 +261,7 @@
     let url = new URLSearchParams(window.location.search);
     let id = url.get("id");
 
-    fetch(`https://mock-server-app-snv6.onrender.com/products/${id}`)
+    fetch(`https://mock-server-app-ezrb.onrender.com/products/${id}`)
       .then((res) => res.json())
       .then((res) => {
         document.querySelector(".sp").innerHTML = `
@@ -312,7 +312,7 @@
     }
 
     function getData(id, quantity) {
-      fetch(`https://mock-server-app-snv6.onrender.com/products/${id}`)
+      fetch(`https://mock-server-app-ezrb.onrender.com/products/${id}`)
         .then((res) => res.json())
         .then((res) => {
           res.quantity = quantity; // Add quantity to the product object
