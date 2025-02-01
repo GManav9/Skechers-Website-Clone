@@ -149,12 +149,11 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-xl">
+    <!-- <nav class="navbar navbar-expand-xl">
       <div class="container-fluid">
         <a href="index.html" id="l">
           <img src="images/skechers-logo.png" class="img-fluid ms-3" alt="" />
         </a>
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button
           class="navbar-toggler"
           type="button"
@@ -194,6 +193,81 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">SALE</a>
+              </li>
+            </ul>
+            <div
+              class="search d-flex justify-content-around align-xl-items-center align-items-start me-xl-3 mt-lg-1"
+            >
+              <form action="" class="position-relative">
+                <input
+                  type="text"
+                  id="searchInput"
+                  class="search-input w-100 pe-5"
+                  placeholder="Search..."
+                />
+                <i class="fa-solid fa-magnifying-glass position-absolute"></i>
+              </form>
+              <div>
+                <a href="cart.html">
+                  <i class="bi fs-4 bi-bag-check"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-xl">
+      <div class="container-fluid">
+        <a href="index.html" id="l">
+          <img src="images/skechers-logo.png" class="img-fluid ms-3" alt="" />
+        </a>
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="fi d-flex flex-column flex-xl-row flex-lg-row justify-content-between align-xl-items-center align-items-start w-100 mt-xl-0 mt-4 flex-wrap"
+          >
+            <ul
+              class="navbar-nav m-xl-auto d-flex flex-column flex-lg-row justify-content-between align-xl-items-center align-items-start mb-2 mb-lg-0"
+              id="nav"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="women's.html">WOMEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="men's.html">MEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">KIDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">APPARELS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">COLLECTION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SPORTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SALE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="login.html"
+                  >Login / Signup</a
+                >
               </li>
             </ul>
             <div
@@ -306,7 +380,9 @@
 
   const fetchProducts = async (page = 1) => {
     try {
-      const res = await fetch("https://mock-server-app-ezrb.onrender.com/Menproducts");
+      const res = await fetch(
+        "https://mock-server-app-ezrb.onrender.com/Menproducts"
+      );
       allProducts = await res.json(); // Store all products for live search
       renderProducts(allProducts.slice(0, itemsPerPage)); // Render the first page of all products
       renderPagination(allProducts.length, page); // Render pagination
